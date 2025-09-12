@@ -7,15 +7,15 @@
     #figure(
     cetz-canvas({
     import cetz.draw: *
-    content((0, 0), [#image("assets/child_brain_microbiome/gba-1.png", width: 380pt)])
+    content((0, 0), [#image("assets/child_brain_microbiome/gut-brain-axis-1.png", width: 380pt)])
     (pause,)
-    content((0, 0), [#image("assets/child_brain_microbiome/gba-2.png", width: 380pt)])
+    content((0, 0), [#image("assets/child_brain_microbiome/gut-brain-axis-2.png", width: 380pt)])
 
-    content((0, 0), [#image("assets/child_brain_microbiome/gba-3.png", width: 380pt)])
+    content((0, 0), [#image("assets/child_brain_microbiome/gut-brain-axis-3.png", width: 380pt)])
     (pause,)
-    content((0, 0), [#image("assets/child_brain_microbiome/gba-4.png", width: 380pt)])
+    content((0, 0), [#image("assets/child_brain_microbiome/gut-brain-axis-4.png", width: 380pt)])
     (pause,)
-    content((0, 0), [#image("assets/child_brain_microbiome/gba-5.png", width: 380pt)])
+    content((0, 0), [#image("assets/child_brain_microbiome/gut-brain-axis-5.png", width: 380pt)])
     }))
 ]
 ]
