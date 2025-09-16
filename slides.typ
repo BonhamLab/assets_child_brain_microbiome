@@ -1,6 +1,5 @@
 // Child brain microbiome slides - gut-brain axis, RESONANCE study, Khula study, VEP analysis
 
-#let gut_brain_axis_animated_slide = [
 == The gut and the brain are intimately linked
 
 #slide[
@@ -18,9 +17,7 @@
     content((0, 0), [#image("assets/child_brain_microbiome/gut-brain-axis-5.png", width: 380pt)])
     }))
 ]
-]
 
-#let resonance_cohort_slide = [
 == The RESONANCE cohort of Child Development
 
 #slide[
@@ -38,9 +35,7 @@
     #v(1em)
     #text(11pt)[Bonham, _et. al._, _Sci. Adv._ (2023)]
 ]
-]
 
-#let resonance_ml_slide = [
 == Machine learning is better able to identify microbial associations with cognition
 
 #slide[
@@ -57,9 +52,7 @@
 
     #text(11pt)[Bonham, _et. al._, _Sci. Adv._ (2023)]
 ]
-]
 
-#let resonance_brain_slide = [
 == ML also identifies microbes associated with brain structure
 
 #slide[
@@ -67,9 +60,7 @@
         image("assets/child_brain_microbiome/resonance-fig4.jpg", width: 74%)
     )
 ]
-]
 
-#let khula_study_slide = [
 == The Khula study of child development
 
 #slide[
@@ -87,9 +78,7 @@
     )
     #v(-1em)
 ]
-]
 
-#let vep_slide = [
 == Visual evoked potential is a measure of brain development
 
 #slide[
@@ -106,9 +95,7 @@
     )
 
 ]
-]
 
-#let fsea_method_slide = [
 == Gene set enrichment analysis makes use of full metagenome
 
 #slide[
@@ -124,9 +111,7 @@
     )
 
 ]
-]
 
-#let concurrent_results_slide = [
 == Microbial genes are associated with VEP development
 
 #slide[
@@ -148,9 +133,7 @@
     )
 
 ]
-]
 
-#let future_results_slide = [
 #slide[
 
 #figure(image("assets/child_brain_microbiome/fsea-futures.png", width: 600pt))
@@ -170,5 +153,4 @@
             })
     )
 
-]
 ]
